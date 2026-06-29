@@ -27,7 +27,10 @@ Organized species-wise into separate folders
 
 Dataset is downloaded using the opendatasets library.
 
+
 ⚙️ Technologies Used
+
+
 Python
 TensorFlow / Keras
 Librosa
@@ -37,6 +40,9 @@ OpenCV
 Matplotlib
 Scikit-learn
 tqdm
+
+
+
 🧠 Model Architecture
 
 The model consists of:
@@ -62,7 +68,11 @@ Adam
 Evaluation Metric:
 
 Accuracy
+
+
 🔍 Workflow
+
+
 Download bird audio dataset.
 Load audio files using Librosa.
 Extract MFCC features.
@@ -73,6 +83,8 @@ Train the 1D CNN model.
 Evaluate model performance.
 Save trained model and label mapping.
 Predict bird species from new audio recordings.
+
+
 📊 Results
 
 The model is capable of learning discriminative audio features from bird vocalizations and accurately classifying bird species from unseen audio samples. Training and validation accuracy/loss curves are generated to monitor model performance during training.
